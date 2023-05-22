@@ -10,7 +10,7 @@ st.title('Will you survive if you were among Titanic passengers or not :ship:')
 # PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
 passengerid = st.text_input("Input Passenger ID", '8585') 
 pclass = st.selectbox("Choose class", [1,2,3])
-name  = st.text_input("Input Passenger Name", 'Soheil Tehranipour')
+name  = st.text_input("Input Passenger Name", 'Passenger Name')
 #sex = st.select_slider("Choose sex", ['male','female'])
 sex = st.radio("Select  sex", ("Male", "Female"))
 age = st.slider("Choose age",0,100)
